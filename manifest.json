@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "JiveKey",
+  "version": "1.12.0",
+  "description": "Quickly generate safe and reliable passwords with JiveKey.",
+  "action": {
+    "default_popup": "program.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": ["storage"]
+}

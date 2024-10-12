@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator JiveKey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator JiveKey</h1>
+        <a href="https://www.flaticon.com/free-icon/key_2170153" class="icon-credits" target="_blank" rel="noopener noreferrer">Login icon created by Eucalyp</a>
+
+        <div class="output-section">
+            <input type="text" id="password-output" readonly>
+            <button id="copy-button" class="copy-button2">Copy</button>
+        </div>
+
+        <div class="controls">
+            <label for="password-length">Length: <span id="length-display">15</span></label>
+            <div class="slider-container">
+                <input type="range" id="password-length" min="4" max="50" value="15">
+            </div>
+
+            <div class="options">
+                <label><input type="checkbox" id="include-upper" checked> ABC</label>
+                <label><input type="checkbox" id="include-lower" checked> abc</label>
+                <label><input type="checkbox" id="include-numbers" checked> 123</label>
+                <label><input type="checkbox" id="include-symbols"> $#&</label>
+                <label><input type="checkbox" id="exclude-characters"> Exclude:</label>
+                <input type="text" id="exclude-input">
+            </div>
+
+            <p class="extra-info">Always use a safe and strong generated password to protect your accounts.</p>
+
+            <button id="generate-button" class="generate-button2">Generate</button>
+
+        </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

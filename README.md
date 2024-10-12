@@ -13,12 +13,7 @@ This Password Generator Extension helps you create strong, secure passwords quic
 ![Extension1](Extension1.png)
 
 ## Installation
-### Method 1: From Extension store
-1. **Download**: Visit the Chrome Web Store (https://chrome.google.com/webstore) or Firefox Add-ons (https://addons.mozilla.org) and search for "JiveKey."
-2. **Add to Browser**: Click "Add to Chrome" or "Add to Firefox."
-3. **Open Extension**: Click the extension icon in the toolbar to start.
-
-### Method 2: From GitHub (Optional)
+### From GitHub
 1. **Download the ZIP File**: Go to the GitHub repository (https://github.com/Yawlf/JiveKey) and click on the "Code" button, then select "Download ZIP."
 2. **Extract the ZIP**: Unzip the downloaded file on your computer.
 3. **Open Extension Settings**: Go to your browser's extension settings (this may vary by browser).

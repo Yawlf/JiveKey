@@ -1,5 +1,5 @@
 # JiveKey
-**A Password Generator Extension** that helps you create strong, secure passwords.
+**A password generator extension** that helps you create strong, secure passwords.
 
 ![Extension2](Extension2.png)
 
